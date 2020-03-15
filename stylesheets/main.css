@@ -1,3 +1,12 @@
+body {
+  font-family: "Arial", Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+
 /* The navbar container */
 .topnav {
   overflow: hidden;
@@ -6,7 +15,7 @@
 
 /* Navbar links */
 .topnav a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -20,31 +29,57 @@
   color: black;
 }
 
-.main {
-  content: "";
-  display: table;
-  clear: both;
+div.article-main {
+  width: 75%;
+  float: left
 }
 
-aside.gallery {
-  width: 30%
-}
-
-aside h2 {
+.article-main p {
   font-family: "Arial", Times, serif;
-
+  font-size: 10px
 }
 
-aside.gallery img {
+.article-main article {
+  margin: 20px
+}
+
+.article-main img {
   width: 100%;
   height: auto;
 }
 
-article {
-  width: 60%
+.article-main h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
-article img {
-    width: 100%;
-    height: auto;
+.article-main p {
+  margin-top: 10px;
+}
+
+div.article-content {
+  margin: 10px
+}
+
+div.aside-gallery {
+  width: 25%;
+  float: left
+}
+
+div.aside-gallery aside {
+  margin: 20px
+}
+
+.aside-gallery h2 {
+  margin-top: 10px
+}
+
+.aside-gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px
+}
+
+.footer-content {
+  background-color: #ddd;
 }
